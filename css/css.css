@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.cajaPadre {
+    width: 600px;
+    height: 700px;
+    background-color: rgb(255, 255, 255  );/*color amarillo*/
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.hijo_1 {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 169, 170);/*aqua*/
+    position: absolute;
+    top: 55px;
+    right: 130px;
+}
+
+
+
+
+.hijo_2 {
+    width: 400px;
+    height: 90px;
+    background-color: rgba(0, 0, 0,0.6);/*negro*/
+    position: relative;
+    bottom: 80px;
+    right: 10px;
+}
+
+
+
+.hijo_2 h1{
+    color: rgb(255, 255, 255);
+    margin-left: 65px;
+    font-size: 25px;
+    margin-top: 25px;
+   
+    
+}
+
+.hijo_3 {
+    width: 400px;
+    height: 500px;
+   /*morado claro*/
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    background-image:url(../img/arboles.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.hijo_3:hover{
+    opacity: 1;
+    display: block;
+    transition: all 400ms ease;
+    transform: translate(4%, -4%);
+
+}
+    
+
+
+
+
+
+
